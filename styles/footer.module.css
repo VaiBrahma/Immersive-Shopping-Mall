@@ -1,0 +1,12 @@
+.shoppingCart{
+    background: black;
+    border-radius: 50%;
+    height:2em;
+    width: 2em;
+    transform: scale(2.1);
+    position: relative;
+    bottom:1.5em;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}

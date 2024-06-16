@@ -1,4 +1,4 @@
-### Descriptioin
+### Description
 
 **Immersive Shopping Mall** is an open project from ArIES : one of the most famous technical clubs of our college i.e. IIT ROORKEE.
 

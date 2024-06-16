@@ -10,7 +10,7 @@ const index = ({products= []}) => {
   return (
     <div className = {`${styles.gridContainer}`}>
       {products.map(product => (
-        <div onClick={()=>handleClick(product)} key = {product.id}>
+        <div onClick={()=>handleClick(product)} className="m-9" key = {product.id}>
           <ProductCard product={product}/>
         </div>
       ))}

@@ -1,0 +1,29 @@
+.header {
+  background: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2;
+  align-items: center;
+  position: relative;
+  height: 3.5em;
+}
+
+.title{
+    color: #ebeaeae9;
+    padding: 1em 0em;
+    position: absolute;
+    left: 3.5em;
+    font-size: large;
+    font-weight: bold;
+}
+
+.avatar{
+    color: #ebeaeae9;
+    padding: 1em 0em;
+    position: absolute;
+    right: 3.5em;
+}
+.icon{
+    filter: drop-shadow(2px 2px 2px black)
+}
