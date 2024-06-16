@@ -13,7 +13,12 @@ The aim of this project is to Create an online shop with a 3D twist using Three.
 
 ## Getting Started
 
-First, run the development server:
+First, run this command in the root folder where package.json belongs.
+
+```bash
+npm install
+```
+Second, run the development server:
 
 ```bash
 npm run dev
