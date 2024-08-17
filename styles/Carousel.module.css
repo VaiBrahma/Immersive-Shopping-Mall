@@ -1,0 +1,76 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 55em;
+  margin: 2em auto;
+  overflow: hidden;
+  text-align: center;
+  padding: 2em;
+  height: 18em;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 200px;
+}
+
+.page {
+  position: absolute;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  width: 100%;
+  max-width: 250px;
+  /* height: 200px; */
+  line-height: 150px;
+  text-align: center;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.current {
+  transform: translateX(0) scale(1);
+  opacity: 1;
+  z-index: 3;
+}
+
+.next {
+  transform: translateX(100%) scale(0.8);
+  opacity: 0.6;
+  z-index: 2;
+}
+
+.prev {
+  transform: translateX(-100%) scale(0.8);
+  opacity: 0.6;
+  z-index: 2;
+}
+
+.hidden {
+  transform: scale(0.5);
+  opacity: 0;
+  z-index: 1;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin:2em auto;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background: linear-gradient(#d6d6d6, #9b9b9b);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: linear-gradient(#000000, #838383);
+}

@@ -1,5 +1,64 @@
 .gridContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(16em, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
     justify-items: center;
   }
+
+  .welcome{
+    padding: 1em;
+    font-size: 2.5em;
+    animation: textappear 0.8s ease-in-out forwards;
+    font-weight: bold;
+    height: 5em;
+  }
+  .btn{
+    background: linear-gradient(#00a408, green);
+    border-radius: 2em;
+    padding: 1em;
+    margin-left: 1em;
+    outline: 1px solid black;
+  }
+  .btn:active{
+    transform: scale(0.95);
+    outline-offset: 1px;
+  }
+
+
+@keyframes textappear{
+  0%{
+    transform:translate(-100vw);
+  }
+}
+
+.welcome h1, .welcome span{
+    background: linear-gradient(#000000 40%, #ffffff);
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.welcome span{
+  background: linear-gradient(#e60101, #ff9191);
+  -webkit-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.loadMoreBtn {
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.loadMoreBtn:hover {
+  background-color: #005bb5;
+}

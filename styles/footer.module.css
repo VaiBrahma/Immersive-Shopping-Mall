@@ -10,3 +10,15 @@
     justify-content:center;
     align-items: center;
 }
+
+.shoppingCart img{
+    position: relative;
+    right: 0.2em;
+    width: 3em;
+}
+.shoppingCart img:hover{
+    transform: scale(1.05);
+}
+.shoppingCart img:active{
+   transform: scale(1);
+}

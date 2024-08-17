@@ -8,7 +8,7 @@ The aim of this project is to Create an online shop with a 3D twist using Three.
 
 ## Features
 
-1. Viewing products from different angles. (not currently working)
+1. Viewing products from different angles.
 2. User navigation through the virtual 3D space. (not currently working)
 3. Intuitive navigation controls WASD keyboard, mouse drag, zoom  (not currently working)
 4. Attractive user interaction.
